@@ -3,5 +3,5 @@ import ReactDOM from 'react-dom';
 
 import './style.scss';
 ReactDOM.render(
-    <h1>tesing jsx</h1>,
+   <h1>Working webpack-dev-server</h1>,
     document.getElementById('root'));
