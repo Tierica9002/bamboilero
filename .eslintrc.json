@@ -1,6 +1,6 @@
 {
     "extends": "eslint:recommended",
-    "parserOptions": { 
+    "parserOptions": {
         "ecmaVersion": 6,
         "sourceType": "module",
         "ecmaFeatures": {
@@ -13,17 +13,17 @@
     "settings": {
     "react": {
         "createClass": "createReactClass",
-        "pragma": "React", 
+        "pragma": "React",
         "version": "15.0"
     },
         "propWrapperFunctions": [ "forbidExtraProps" ]
-    },    
+    },
     "env": {
         "browser": true,
         "node": true
     },
-    "rules": {
+    "rules":  {
         "react/jsx-uses-react": "error",
         "react/jsx-uses-vars": "error"
-    }      
+    }
 }
